@@ -1,3 +1,3 @@
-# web-dev2021
+# Etch a Sketch
 
-Web Development Projects!! 
+Etch a Sketch using Vanilla JS, CSS, & HTML. 
