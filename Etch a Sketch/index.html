@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+
+
+<head>
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yomogi">
+</head>
+
+<body>
+    
+    <div class="main">
+        <h1 class="title">Etch-a-Sketch</h1>
+        <p class="name">Created By James Garcia.</p>
+        <a class="github" href="https://github.com/Jgarcia1201" target="_blank">GitHub: JGarcia1201</a>
+        <div class="etch">
+
+            <div class="gridBox" id="gridBox"></div>
+
+            <div class="menuBox">
+                <div class="buttonBox">
+                    <button id="toBlack" class="button">Black</button>
+                    <button id="toRainbow" class="button">Get Trippy</button>
+                    <button id="clear" class="button" onclick="clearGrid()">Clear</button>
+                </div>
+                <div class="dinoBox">
+                    <img class="dino" src="dino.png">
+                </div>
+                <div class="densityBox">
+                    <input type="range" min="10" max="50" value="30" class="slide" id="slider">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+
+</html>
+
+<script src="app.js"></script>
